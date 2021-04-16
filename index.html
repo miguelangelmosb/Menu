@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="titulo">
+        <h3>Restaurante Korben</h3>
+      </div>
+      <div class="contenedor">
+        <div class="selectores">
+        <div class="selector">
+          <label for="dias">Dias</label>
+          <select class="select" id="dias">
+            <option value="">escoge un dia</option>
+            <option value="lunes">Lunes</option>
+            <option value="martes">Martes</option>
+            <option value="miercoles">Miercoles</option>
+            <option value="jueves">Jueves</option>
+            <option value="viernes">Viernes</option>
+            <option value="sabado">Sabado</option>
+            <option value="domingo">Domingo</option>
+          </select>
+        </div>
+        <div class="selector">
+          <label for="menus">Tipo de menu</label>
+          <select class="select" id="menus">
+            <option value="">escoge un menu</option>
+            <option value="todos">Todos</option>
+            <option value="ejecutivo">Ejecutivo</option>
+            <option value="vegetariano">Vegetariano</option>
+            <option value="corriente">Corriente</option>
+          </select>
+        </div>
+        <button class="boton"> Ver menu</button>
+      </div>
+      <div class="resultado oculto"></div>
+      </div>
+    <script src="menu.js"></script>
+</body>
+</html>
